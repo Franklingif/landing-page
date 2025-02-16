@@ -102,3 +102,35 @@ a {
 .lined {
     max-width: 200px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    max-width: 760px;
+    
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 550px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
