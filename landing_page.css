@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
 body {
     margin: 0;
     display: flex;
@@ -53,7 +55,7 @@ a {
 }
 
 .first-button {
-    background: royalblue;
+    background: #3882F6;
     border: none;
     color: white;
     font-size: 14px;
@@ -114,7 +116,9 @@ a {
     color: #1F2937;
     font-weight: 300;
     max-width: 760px;
-    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .author {
@@ -133,4 +137,55 @@ a {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    width: 480px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    width: 900px;
+    height: 300;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 80px;
+}
+
+.call {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-text {
+    color: white;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-button {
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
